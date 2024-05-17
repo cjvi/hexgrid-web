@@ -1,0 +1,134 @@
+/* public/css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d3c84;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .header-right a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #0d3c84;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-right .filters {
+    margin-left: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+nav .nav-right .filters:hover {
+    text-decoration: underline;
+}
+
+nav .nav-right .sort {
+    margin-left: 1.5rem;
+}
+
+nav .nav-right select {
+    padding: 0.3rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+}
+
+nav .nav-right .search-bar {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-right .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+nav .nav-right .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.book-list {
+    margin-top: 1rem;
+}
+
+.book-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-list th,
+.book-list td {
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.book-list th {
+    background-color: #0d3c84;
+    color: white;
+}
+
+.book-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+.book-list img {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    background-color: #0d3c84;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
